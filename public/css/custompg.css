@@ -1,0 +1,78 @@
+/* shared trip section css */
+.joblist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.joblist li {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 10px 10px 30px;
+    margin-bottom: 10px;
+}
+
+.joblist li p {
+    margin: 0 0 7px 0;
+    font-size: 18px;
+}
+
+.joblist li aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.joblist li a {
+    color: #4b9ac5;
+}
+
+.joblist li span {
+    color: #b4b4b4;
+}
+
+.joblist li small {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 7px;
+    top: 2px;
+}
+
+.bg0 {
+    background: #690ac1;
+}
+
+.bg1 {
+    background: #a77401;
+}
+
+.bg2 {
+    background: #6fea7f;
+}
+
+.bg3 {
+    background: #efc977;
+}
+
+.bg4 {
+    background: #ef84dd;
+}
+
+.bg5 {
+    background: #f2ec60;
+}
+
+#popup_slider_single img {
+    height: auto;
+    width: 100%;
+    object-fit: scale-down;
+    height: 300px;
+    background: white;
+}
+
+.modal-content.pg {
+    margin-top: 50%;
+}

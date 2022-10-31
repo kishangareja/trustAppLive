@@ -1,0 +1,207 @@
+/*================================================================================ 
+
+Responsive Css Start Here
+
+================================================================================*/
+
+@media only screen and (min-width:1200px) and (max-width:1280px) {}
+
+@media screen and (max-width: 1024px) {
+    .tophead {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .navbar-nav .nav-link {
+        margin: 0px 15px;
+        padding: 0;
+    }
+    .navbar-nav .nav-link {
+        margin: 0px 5px;
+        padding: 0;
+        font-size: 12px;
+    }
+    .ft_mainul {
+        flex-wrap: wrap;
+    }
+    .ft_mainul li:first-child {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ft_mainul li {
+        width: 33%;
+        padding: 0 15px;
+    }
+    .comnheading {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .we_care h2 {
+        font-size: 34px;
+    }
+    .we_care p {
+        font-size: 20px;
+    }
+    .together {
+        background-position: inherit;
+    }
+    .boximg img {
+        height: 340px;
+    }
+    .catediv {
+        height: 340px;
+    }
+    .support {
+        background: #ddd;
+        padding: 20px;
+        height: 272px;
+    }
+    .catelist li img {
+        max-height: 40px;
+        margin-bottom: 5px;
+    }
+    .sidecourse_thumb img {
+        height: auto;
+    }
+    .course_sidebar li {
+        margin-top: 10px;
+    }
+    .ftlogo a {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-nav {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        overflow: auto;
+    }
+    /* .navbar-nav .nav-link {
+        margin: 0px 5px;
+        padding: 0;
+        font-size: 12px;
+    } */
+    .otherlink .loginbtn {
+        padding: 5px 25px;
+    }
+    .otherlink a {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .ft_follow {
+        margin-top: 15px;
+    }
+    .ft_follow a {
+        margin: 1px;
+    }
+    .comnheading {
+        font-size: 28px;
+    }
+    .we_care h2 {
+        font-size: 30px;
+    }
+    .we_care p {
+        font-size: 16px;
+    }
+    .boximg img {
+        height: 340px;
+    }
+    .sidecourse_thumb img {
+        height: 100%;
+    }
+    .sidecourse_content h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .loaction span {
+        font-size: 12px;
+    }
+    .ftlogo a {
+        margin-left: 0px;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .searchdiv {
+        width: 70%;
+    }
+    .navbar-nav .nav-link,
+    div.scrollmenu a {
+        margin: 10px;
+        padding: 0;
+        font-size: 14px;
+    }
+    .navbar-nav .nav-link img,
+    div.scrollmenu a img {
+        width: 40px;
+    }
+    #bannerslider .owl-nav button {
+        padding: 10px 10px 10px 10px !important;
+        font-size: 20px;
+    }
+    .boximg img {
+        margin: 5px 0;
+    }
+    .ft_mainul li {
+        width: 100%;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    .comnpadding {
+        padding: 30px 0;
+    }
+    .boximg img {
+        height: 100%;
+    }
+    .catediv {
+        height: 600px;
+        margin: 30px 0;
+    }
+    .support {
+        height: 282px;
+    }
+    .sidecourse_thumb img{
+        margin: 0;
+    }
+    .ajax-loader {
+        width: 100%;
+        height: 100%;
+    }
+    .ftlogo a {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .catelist li {
+        width: 29%;
+    }
+    .support a {
+        font-size: 14px;
+    }
+
+    .icondiv a {
+        margin-left: 4px;
+    }
+    .sidecourse_content {
+        padding: 30px 5px 5px 7px ;
+    }
+
+    .ftlogo a {
+        margin-left: 0px;
+    }
+
+    .logo img {
+        margin-left: 15px;
+    }
+
+    .switch-field {
+        left: 0%;
+    }
+}
